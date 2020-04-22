@@ -1,0 +1,117 @@
+{
+    "id": 132341,
+    "title": "Covid19 good practices",
+    "description": "Best practice tips to limitate spread of the virus",
+    "releaseDate": "22/04/2019",
+    "latestUpdate": "24/04/2019",
+    "version": "1.1.2",
+    "participantNumber": 23728,
+    "tags": [
+        "healthcare",
+        "crisis",
+        "confinement",
+        "epidemic"
+    ],
+    "author": {
+        "id": 274,
+        "name": "ILO"
+    },
+    "contributors": [
+            {
+                "id": 242214,
+                "username": "Jack D. Brown"
+            },
+            {
+                "id": 244289,
+                "username": "Helen G. Dwyer"
+            }
+        ],
+    "sections": [
+            {
+                "id": 1,
+                "description": "Understanding the virus",
+                "lessons": [
+                    {
+                        "id": 1,
+                        "title": "What is covid?",
+                        "training": {
+                            "type": "chat",
+                            "log": [
+                                {
+                                    "from": "mentor",
+                                    "msg": {
+                                        "type": "image",
+                                        "ref": "https://microskills/ILO/2249189.com"
+                                    }
+                                },
+                                {
+                                    "from": "mentor",
+                                    "msg": {
+                                        "type": "text",
+                                        "content": "Covid is a dangerous virus. What do you think?"
+                                    }
+                                },
+                                {
+                                    "from": "user",
+                                    "msg": {
+                                        "type": "textInput",
+                                        "options": [
+                                            {
+                                                "id": 0,
+                                                "text": "I don't really care",
+                                                "followUp": [
+                                                    {
+                                                        "from": "mentor",
+                                                        "msg": {
+                                                            "type": "text",
+                                                            "content": "You should!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": 1,
+                                                "text": "I don't know how to behave",
+                                                "followUp": [
+                                                    {
+                                                        "from": "mentor",
+                                                        "msg": {
+                                                            "type": "text",
+                                                            "content": "This is really important, let me explain!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id":2,
+                        "title": "How does covid spread?"
+                    },
+                    {
+                        "id":3,
+                        "title": "Exponential growth"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "description": "Social distancing",
+                "lessons": [
+                    {
+                        "id": 4,
+                        "title": "No public gathering"
+                    },
+                    {
+                        "id":5,
+                        "title": "How to get groceries without contact"
+                    }
+                ]
+            }
+        ]
+}

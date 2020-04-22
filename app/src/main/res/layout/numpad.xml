@@ -1,0 +1,50 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:columnWidth="90dp"
+        >
+
+        <Button android:text="1"
+            android:id="@+id/button_1"
+            android:layout_width="40dp"/>
+        <Button android:text="2"
+            android:id="@+id/button_2"
+            android:layout_width="40dp"/>
+        <Button android:text="3"
+            android:id="@+id/button_3"
+            android:layout_width="40dp"/>
+        <Button android:text="4"
+            android:id="@+id/button_4"
+            android:layout_width="40dp"/>
+        <Button android:text="5"
+            android:id="@+id/button_5"
+            android:layout_width="40dp"/>
+        <Button android:text="6"
+            android:id="@+id/button_6"
+            android:layout_width="40dp"/>
+        <Button android:text="7"
+            android:id="@+id/button_7"
+            android:layout_width="40dp"/>
+        <Button android:text="8"
+            android:id="@+id/button_8"
+            android:layout_width="40dp"/>
+        <Button android:text="9"
+            android:id="@+id/button_9"
+            android:layout_width="40dp"/>
+        <Button android:text=" "
+            android:id="@+id/button_delete"
+            android:layout_width="40dp"/>
+        <Button android:text="0"
+            android:id="@+id/button_0"
+            android:layout_width="40dp"/>
+        <Button android:text="."
+            android:id="@+id/button_dot"
+            android:layout_width="40dp"/>
+    </GridLayout>
+
+</merge>

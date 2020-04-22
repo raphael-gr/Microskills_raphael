@@ -1,0 +1,29 @@
+{
+  "id": 132341,
+  "title": "Covid19 good practices",
+  "description": "Best practice tips to limitate spread of the virus",
+  "releaseDate": "22/04/2019",
+  "latestUpdate": "24/04/2019",
+  "version": "1.1.2",
+  "participantNumber": 23728,
+  "tags": [
+    "healthcare",
+    "crisis",
+    "confinement",
+    "epidemic"
+  ],
+  "author": {
+    "id": 274,
+    "name": "ILO"
+  },
+  "contributors": [
+    {
+      "id": 242214,
+      "username": "Jack D. Brown"
+    },
+    {
+      "id": 244289,
+      "username": "Helen G. Dwyer"
+    }
+  ]
+}

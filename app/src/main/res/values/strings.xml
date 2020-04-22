@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Microskills </string>
+    <string name="business">Business Literacy</string>
+    <string name="health">Healthcare Literacy</string>
+    <string name="ilo">ILO trainings</string>
+    <string name="Choose_class">Choose your class</string>
+    <string name="Or_enter_your_training_code">Or enter your training code</string>
+    <string name="financial">Financial Literacy</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First fragment</string>
+    <string name="second_fragment_label">Second fragment</string>
+    <string name="go">Go</string>
+    <string name="codea">CodeA</string>
+    <string name="codeb">CodeB</string>
+    <string name="savingmoney">Saving Money</string>
+    <string name="multiplymoney">Multiply Money</string>
+    <string name="loaninterest">Loan Interest</string>
+    <string name="homebudget">Home Budget</string>
+    <string name="financialliteracy">Financial Literacy</string>
+    <string name="introduction">This is the introduction of the course</string>
+    <string name="abt2">. This course will be about</string>
+    <string name="training1">Training 1</string>
+    <string name="training2">Training 2</string>
+    <string name="abt1">About</string>
+
+
+</resources>

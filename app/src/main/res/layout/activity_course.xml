@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Note that a ConstraintLayout induces problems when using a recyclerview ! -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_message_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_chatbox"
+        android:background="#dddddd"
+        android:visibility="visible" />
+
+
+    <!-- Bottom of chatbox / input zone -->
+    <!-- has to be converted to a constraint layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_chatbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/button_chatbox_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="RECEIVE"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/numpad_input"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/numpad"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/numpad"
+            app:layout_constraintRight_toLeftOf="@id/numpad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints=" " />
+
+        <com.example.microskills.courseFolder.Numpad
+            android:id="@+id/numpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_chatbox_receive"
+            app:layout_constraintRight_toLeftOf="@+id/button_chatbox_receive"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

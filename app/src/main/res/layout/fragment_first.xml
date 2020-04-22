@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.microskills.mainFolder.FirstFragment">
+
+    <TextView
+        android:id="@+id/Main_focus"
+        android:layout_width="369dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/title_border"
+        android:gravity="center_horizontal|center_vertical"
+        android:shadowColor="#CDCBCB"
+        android:text="@string/Choose_class"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FAFCFD"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Displays all the different courses -->
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/button_primary"
+        android:text="Business Literacy"
+        android:textColor="@color/buttonText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/button_secondary"
+        android:text="ILO trainings"
+        android:textColor="@color/buttonText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/button_primary"
+        android:text="Financial literacy"
+        android:textColor="@color/buttonText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/button_secondary"
+        android:text="Healthcare literacy"
+        android:textColor="@color/buttonText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Main_focus" />
+
+    <!-- Interface to enter a code and go to course -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Or enter your training code"
+        android:textAllCaps="true"
+        android:textColor="@color/standardText"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintBottom_toTopOf="@+id/editText"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="221dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/standardText"
+        android:textColorHighlight="@color/standardText"
+        android:textColorHint="@color/standardText"
+        android:textColorLink="@color/standardText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/gotonext"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        android:layout_marginLeft="10dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

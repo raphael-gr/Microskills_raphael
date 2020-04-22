@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.microskills.mainFolder.MainActivity">
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="101"
+        android:title="LOG IN/SIGN OUT "
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_training"
+        android:orderInCategory="102"
+        android:title="MY TRAININGS" />
+    <item
+        android:id="@+id/action_credits"
+        android:orderInCategory="103"
+        android:title="MY CREDITS " />
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="104"
+        android:title="MY PROFILE" />
+    <item
+        android:id="@+id/action_peer"
+        android:orderInCategory="105"
+        android:title="MY PEER/GROUP"/>
+</menu>
